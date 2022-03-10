@@ -1,17 +1,14 @@
-import { useEffect, useState } from "react/cjs/react.production.min";
-
 export const Header = () => {
-  const navigator = window.navigator;
 
   return (
     <div className="h-[490px] w-full bg-[#404eed] bg-[url('/center_bg_landing_header.svg')] bg-center bg-cover m-auto overflow-x-hidden">
-      <div className="max-w-7xl relative w-full h-full flex flex-col justify-center text-center">
+      <div className="max-w-[1400px] m-auto relative w-full h-full flex flex-col justify-center text-center">
         <img
           src="left_bg_landing_header.svg"
           className="object-contain w-[50%] absolute -left-80 bottom-0"
         />
         <section className="text-white leading-8 text-lg">
-          <h1 className="font-[Domine] text-6xl font-black mb-10">
+          <h1 className="font-[Shippori Antique B1] text-6xl font-black mb-10">
             IMAGINE A PLACE...
           </h1>
           <p>
